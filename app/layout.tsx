@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Mezmur Mahder - Download",
   description:
     "A simple, distraction-free reader for 1,000+ EOTC Mezmur lyrics. Download the Android APK.",
+  icons: {
+    icon: "/mezmurapp-logo-bg.jpg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
